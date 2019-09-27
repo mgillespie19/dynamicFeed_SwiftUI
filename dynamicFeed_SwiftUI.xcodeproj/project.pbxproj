@@ -16,6 +16,10 @@
 		F6CDF797233D53B10091F622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CDF795233D53B10091F622 /* LaunchScreen.storyboard */; };
 		F6CDF7A2233D53B10091F622 /* dynamicFeed_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7A1233D53B10091F622 /* dynamicFeed_SwiftUITests.swift */; };
 		F6CDF7AD233D53B10091F622 /* dynamicFeed_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7AC233D53B10091F622 /* dynamicFeed_SwiftUIUITests.swift */; };
+		F6CDF7BE233E413B0091F622 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7BD233E413B0091F622 /* CardView.swift */; };
+		F6CDF7C0233E42840091F622 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7BF233E42840091F622 /* CertificateView.swift */; };
+		F6CDF7C2233E4C6E0091F622 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7C1233E4C6E0091F622 /* TitleView.swift */; };
+		F6CDF7C4233E4CAC0091F622 /* CardBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDF7C3233E4CAC0091F622 /* CardBottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F6CDF7A8233D53B10091F622 /* dynamicFeed_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicFeed_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CDF7AC233D53B10091F622 /* dynamicFeed_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamicFeed_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		F6CDF7AE233D53B10091F622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CDF7BD233E413B0091F622 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F6CDF7BF233E42840091F622 /* CertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		F6CDF7C1233E4C6E0091F622 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		F6CDF7C3233E4CAC0091F622 /* CardBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,12 @@
 		F6CDF786233D53B00091F622 /* dynamicFeed_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F6CDF7BC233E412E0091F622 /* Controller */,
+				F6CDF7BB233E41280091F622 /* View */,
+				F6CDF7BA233E41220091F622 /* Model */,
 				F6CDF787233D53B00091F622 /* AppDelegate.swift */,
-				F6CDF789233D53B00091F622 /* SceneDelegate.swift */,
 				F6CDF78E233D53B00091F622 /* ContentView.swift */,
+				F6CDF789233D53B00091F622 /* SceneDelegate.swift */,
 				F6CDF790233D53B10091F622 /* Assets.xcassets */,
 				F6CDF795233D53B10091F622 /* LaunchScreen.storyboard */,
 				F6CDF798233D53B10091F622 /* Info.plist */,
@@ -137,6 +148,31 @@
 				F6CDF7AE233D53B10091F622 /* Info.plist */,
 			);
 			path = dynamicFeed_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		F6CDF7BA233E41220091F622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6CDF7BB233E41280091F622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDF7BD233E413B0091F622 /* CardView.swift */,
+				F6CDF7BF233E42840091F622 /* CertificateView.swift */,
+				F6CDF7C1233E4C6E0091F622 /* TitleView.swift */,
+				F6CDF7C3233E4CAC0091F622 /* CardBottomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6CDF7BC233E412E0091F622 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6CDF788233D53B00091F622 /* AppDelegate.swift in Sources */,
+				F6CDF7C4233E4CAC0091F622 /* CardBottomView.swift in Sources */,
 				F6CDF78D233D53B00091F622 /* dynamicFeed_SwiftUI.xcdatamodeld in Sources */,
+				F6CDF7C0233E42840091F622 /* CertificateView.swift in Sources */,
+				F6CDF7C2233E4C6E0091F622 /* TitleView.swift in Sources */,
 				F6CDF78F233D53B00091F622 /* ContentView.swift in Sources */,
 				F6CDF78A233D53B00091F622 /* SceneDelegate.swift in Sources */,
+				F6CDF7BE233E413B0091F622 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
